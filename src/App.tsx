@@ -148,7 +148,17 @@ function App() {
 
             <div className="hero-actions">
               <a className="button button-primary" href="#work">View my work <ArrowUpRight size={17} /></a>
-              <a className="button button-ghost" href="/Akaram_ganesh_SDET_pdf.pdf" download>Download resume <Download size={16} /></a>
+            
+
+<a
+  className="button button-ghost"
+  href="/Akaram_ganesh_SDET_pdf%20(2).pdf"
+  download="Akaram_Ganesh_SDET_Resume.pdf"
+>
+  Download Resume <Download size={16} />
+</a>
+
+
             </div>
             <div className="hero-meta"><span><MapPin size={15} /> Hyderabad, India</span><span className="meta-divider" /><a href="mailto:ganeshakaram58@gmail.com"><Mail size={15} /> ganeshakaram58@gmail.com</a></div>
           </div>
